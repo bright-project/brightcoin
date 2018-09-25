@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/brightcoin_bg.qm</file>
+        <file alias="ca">locale/brightcoin_ca.qm</file>
+        <file alias="cs">locale/brightcoin_cs.qm</file>
+        <file alias="da">locale/brightcoin_da.qm</file>
+        <file alias="de">locale/brightcoin_de.qm</file>
+        <file alias="en">locale/brightcoin_en.qm</file>
+        <file alias="en_US">locale/brightcoin_en_US.qm</file>
+        <file alias="es">locale/brightcoin_es.qm</file>
+        <file alias="fi">locale/brightcoin_fi.qm</file>
+        <file alias="fr_FR">locale/brightcoin_fr_FR.qm</file>
+        <file alias="hr">locale/brightcoin_hr.qm</file>
+        <file alias="it">locale/brightcoin_it.qm</file>
+        <file alias="ja">locale/brightcoin_ja.qm</file>
+        <file alias="ko_KR">locale/brightcoin_ko_KR.qm</file>
+        <file alias="nl">locale/brightcoin_nl.qm</file>
+        <file alias="pl">locale/brightcoin_pl.qm</file>
+        <file alias="pt">locale/brightcoin_pt.qm</file>
+        <file alias="pt_BR">locale/brightcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/brightcoin_ro_RO.qm</file>
+        <file alias="ru">locale/brightcoin_ru.qm</file>
+        <file alias="sk">locale/brightcoin_sk.qm</file>
+        <file alias="sv">locale/brightcoin_sv.qm</file>
+        <file alias="tr">locale/brightcoin_tr.qm</file>
+        <file alias="uk">locale/brightcoin_uk.qm</file>
+        <file alias="zh_CN">locale/brightcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/brightcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,26 @@
+[Unit]
+Description=BRIGHTCOIN's distributed currency daemon
+After=network.target
+
+[Service]
+User=brightcoin
+Group=brightcoin
+
+Type=forking
+PIDFile=/var/lib/brightcoind/brightcoind.pid
+
+ExecStart=/usr/bin/brightcoind -daemon -pid=/var/lib/brightcoind/brightcoind.pid \
+          -conf=/etc/brightcoin/brightcoin.conf -datadir=/var/lib/brightcoind
+
+ExecStop=-/usr/bin/brightcoin-cli -conf=/etc/brightcoin/brightcoin.conf \
+         -datadir=/var/lib/brightcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

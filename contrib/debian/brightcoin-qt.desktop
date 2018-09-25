@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BrightCoin
+Comment=BrightCoin P2P Cryptocurrency
+Comment[fr]=BrightCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BrightCoin, eşten eşe kriptografik sanal para birimi
+Exec=brightcoin-qt %u
+Terminal=false
+Type=Application
+Icon=brightcoin128
+MimeType=x-scheme-handler/brightcoin;
+Categories=Office;Finance;

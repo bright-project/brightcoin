@@ -1,0 +1,26 @@
+# /etc/conf.d/brightcoind: config file for /etc/init.d/brightcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/brightcoin/brightcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/brightcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/brightcoind.pid"
+
+# Where to write brightcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/brightcoind"
+
+# User and group to own brightcoind process
+#BITCOIND_USER="brightcoin"
+#BITCOIND_GROUP="brightcoin"
+
+# Path to brightcoind executable
+#BITCOIND_BIN="/usr/bin/brightcoind"
+
+# Nice value to run brightcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
